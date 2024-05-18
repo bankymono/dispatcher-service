@@ -1,4 +1,4 @@
-include('../order-service/Tiltfile')
+include('../edge-service/Tiltfile')
 
 gradlew = "./gradlew"
 expected_ref = "$EXPECTED_REF"
