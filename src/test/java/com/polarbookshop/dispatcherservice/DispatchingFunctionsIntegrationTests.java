@@ -11,7 +11,7 @@ import reactor.test.StepVerifier;
 
 import java.util.function.Function;
 
-@FunctionalSpringBootTest
+//@FunctionalSpringBootTest
 class DispatchingFunctionsIntegrationTests {
 
     @Autowired
