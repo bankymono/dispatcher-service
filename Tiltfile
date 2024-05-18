@@ -20,3 +20,4 @@ k8s_yaml(['k8s/deployment.yml','k8s/service.yml'])
 
 # manage
 k8s_resource('dispatcher-service',port_forwards=['9003'])
+allow_k8s_contexts('polar')
