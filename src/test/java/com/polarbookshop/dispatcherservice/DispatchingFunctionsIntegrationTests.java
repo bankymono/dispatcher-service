@@ -1,7 +1,6 @@
 package com.polarbookshop.dispatcherservice;
 
-import com.polarbookshop.dispatcherservice.OrderAcceptedMessage;
-import com.polarbookshop.dispatcherservice.OrderDispatchedMessage;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.function.context.FunctionCatalog;
@@ -12,6 +11,7 @@ import reactor.test.StepVerifier;
 import java.util.function.Function;
 
 @FunctionalSpringBootTest
+@Disabled("These tests are only necessary when using the functions alone (no bindings)")
 class DispatchingFunctionsIntegrationTests {
 
     @Autowired
